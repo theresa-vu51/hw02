@@ -35,7 +35,7 @@ for i = 1 : maxit
 end
 
 %%%%%%%%%%%%%%%%%%%
-%not sure what to do about the flag
+%not sure what to do about the flag success
 %%%%%%%%%%%%%%%%%%%
 
 % display message to user
