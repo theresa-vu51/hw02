@@ -29,7 +29,7 @@ tau = 0.5;      %parameter to update t
 for i = 1 : maxit
     
     %find step length t_k
-    x_temp = x_k +t_p*sdir;
+    x_temp = xc +t_p*sdir;
     f_temp = objfcn(x_temp); %f(x_k + t*s_k)
     bound = c*t_p*df_k*sdir;  %c*t*grad(f(x_k))*s_k
     
